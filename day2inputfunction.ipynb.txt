@@ -1,0 +1,135 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lSsszo0NOvtP",
+        "outputId": "8ca0b44f-e2dd-42c4-c694-afbcd5e3f3b2"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "please enter your name....sanju\n"
+          ]
+        }
+      ],
+      "source": [
+        "name = input(\"please enter your name....\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "V2o2lHbUO1vD",
+        "outputId": "dbfd0044-34cd-470d-a7a9-9d885d1eacb6"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'sanju'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "type(name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "skgYY3lkO_Vp",
+        "outputId": "a38547c5-24a1-4c57-d995-1afc52e2e4ad"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "str"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = input(\"enetr first number:\")\n",
+        "num2 = input(\"enetr second number:\")\n",
+        "\n",
+        "result = num1 + num2\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "B8qJqfG0PC1J",
+        "outputId": "b6a4eee4-62ca-4bf8-a5ca-823526a6eede"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enetr first number:sanju\n",
+            "enetr second number:gowda\n",
+            "sanjugowda\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "yWOQLa35PZ41"
+      },
+      "execution_count": 4,
+      "outputs": []
+    }
+  ]
+}
